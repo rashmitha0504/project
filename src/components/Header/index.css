@@ -1,0 +1,155 @@
+.navbar {
+    background-color: #40035c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nav-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .header {
+    text-decoration: none;
+    color: #6366f1;
+  }
+  .home-website-logo {
+    width: 110px;
+  }
+  .nav-items {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  .nav-link-lg {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .nav-link-sm {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .small-header-icons {
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+    margin-left: 15px;
+  }
+  
+  .logout-button-lg {
+    background-color: #6366f1;
+    border: none;
+    border-radius: 12px;
+    padding: 4px 22px;
+    color: #f8fafc;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+  }
+  .logout-button-sm {
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .logout-icon-sm {
+    width: 26px;
+    height: 26px;
+    color: #ffffff;
+  }
+  @media screen and (max-width: 768px) {
+    .nav-items {
+      margin-left: auto;
+    }
+    .nav-link-lg {
+      display: none;
+    }
+    .logout-button-lg {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .navbar {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .home-website-logo {
+      width: 130px;
+    }
+    .nav-items {
+      gap: 30px;
+    }
+    .small-header-icons {
+      display: none;
+    }
+    .logout-button-lg {
+      font-size: 16px;
+      padding: 6px 24px;
+    }
+    .logout-btn-list-item-small {
+      display: none;
+      list-style-type: none;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .home-website-logo {
+      width: 150px;
+    }
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+  }
+  
+  .dropdown-content p {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content p:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .logout-btn-list-item-small{
+    list-style-type:none;
+  }
+  

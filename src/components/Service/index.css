@@ -1,0 +1,53 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  max-height: 100%;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, pink, blue);
+}
+
+.home-page {
+  text-align: center;
+}
+
+.home-page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-heading {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.home-description {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.find-jobs-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-right: 10px;
+}
+
+.another-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ff5733;
+  border: none;
+  color: #fff;
+  margin-left: 10px;
+}

@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .sub-card {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .sub-card:hover {
+    transform: scale(1.1);
+    background-color: rgba(167, 105, 214, 0.867);
+    color: white;
+    font-style: italic;
+    font-family: "Roboto";
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  h2,
+  p {
+    margin: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blueviolet;
+  }
+  
+  .cont {
+    padding: 30px;
+    margin: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .sub-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+  

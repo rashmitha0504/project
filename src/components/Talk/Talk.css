@@ -1,0 +1,110 @@
+/* .main-container {
+  justify-content: space-around;
+  flex-direction: center;
+  align-items: center;
+  background-color: #1e1d1d;
+}
+
+.sub-container {
+  width: 45%;
+  padding: 30px;
+  margin: 10px;
+}
+.box {
+  background-color: rgb(157, 169, 180);
+  padding: 30px;
+  margin: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px;
+  background-color: #080225;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #200250;
+}
+.head-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* Talk.css */
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e1d1d;
+    padding: 20px;
+  }
+  
+  .sub-container {
+    width: 100%; /* Adjusted width for full width on smaller screens */
+    max-width: 600px; /* Added max-width for better responsiveness */
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .box {
+    background-color: rgb(157, 169, 180);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: #fff; /* Set label color to white */
+  }
+  
+  input,
+  select,
+  textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #080225;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #200250;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .sub-container {
+      width: 100%; /* Adjusted width for full width on smaller screens */
+    }
+  }
+  
